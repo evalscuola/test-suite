@@ -1,0 +1,24 @@
+Project name:	2022-2023-5Z-fis2
+Project type:				# BES INFO	
+Versions:	32			# number of different versions
+Questions:	40
+INPUT FILES:
+questionlist:	2022-2023-5Z-fis2-questionlist.csv
+mainlatex:	2022-2023-5Z-fis2-main.tex
+qfolder:	2022-2023-5Z-fis2-questions
+replacements:	
+
+OUTPUT FILES:
+qnumber:	2022-2023-5Z-fis2-qnumber.csv
+qcodes: 	2022-2023-5Z-fis2-qcodes.csv
+qanswerorder:	2022-2023-5Z-fis2-qanswerorder.csv
+qkey:   	2022-2023-5Z-fis2-qkey.csv
+
+givenanswers:	2022-2023-5Z-fis2-givenanswers.csv
+
+SUBSTITUTIONS
+substitution1:	2022-2023-5Z-fis2-substitutions.csv
+
+img-dim:	6cm
+# dimensione delle figure: 4.5cm, 4 columns
+copy-dir: 	2022-2023-5Z-fis2-copy

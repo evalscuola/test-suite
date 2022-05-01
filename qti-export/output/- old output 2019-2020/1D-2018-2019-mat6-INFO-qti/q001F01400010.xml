@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<assessmentItem xmlns="http://www.imsglobal.org/xsd/imsqti_v2p2" xmlns:m="http://www.w3.org/1998/Math/MathML" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.imsglobal.org/xsd/imsqti_v2p2 http://www.imsglobal.org/xsd/qti/qtiv2p2/imsqti_v2p2.xsd" identifier="i001F01400010" title="domanda" label="001F01400010" xml:lang="en-US" adaptive="false" timeDependent="false" toolName="TAO" toolVersion="3.3.0-RC02">
+  <responseDeclaration identifier="RESPONSE" cardinality="single" baseType="identifier">
+    <correctResponse>
+      <value><![CDATA[A]]></value>
+    </correctResponse>
+  </responseDeclaration>
+  <outcomeDeclaration identifier="SCORE" cardinality="single" baseType="float" normalMaximum="1"/>
+  <outcomeDeclaration identifier="MAXSCORE" cardinality="single" baseType="float">
+    <defaultValue>
+      <value>1</value>
+    </defaultValue>
+  </outcomeDeclaration>
+
+  <itemBody>
+    <div class="grid-row">
+      <div class="col-12">
+        <choiceInteraction responseIdentifier="RESPONSE" shuffle="true" maxChoices="1" minChoices="0" orientation="vertical" class="eliminability-deselected">
+
+		<prompt>Nella tabella , <m:math>
+<m:semantics>
+<m:mstyle displaystyle="true" scriptlevel="0">
+    <m:mrow class="MJX-TeXAtom-ORD">
+        <m:mi>d</m:mi>
+    </m:mrow>
+</m:mstyle>
+<m:annotation encoding="latex">d</m:annotation>
+</m:semantics>
+</m:math>
+ rappresenta la distanza in metri fra l'abitazione e la scuola di ciascuno degli alunni di una classe. Si determini la percentuale di alunni che abitano a meno di <m:math>
+<m:semantics>
+<m:mstyle displaystyle="true" scriptlevel="0">
+    <m:mrow class="MJX-TeXAtom-ORD">
+        <m:mn>1</m:mn>
+        <m:mi>,</m:mi>
+        <m:mn>5</m:mn>
+    </m:mrow>
+</m:mstyle>
+<m:annotation encoding="latex">1,5</m:annotation>
+</m:semantics>
+</m:math>
+ km dalla scuola. 
+</prompt>
+		<simpleChoice identifier="A" fixed="false" showHide="show"><m:math>
+<m:semantics>
+<m:mstyle displaystyle="true" scriptlevel="0">
+    <m:mrow class="MJX-TeXAtom-ORD">
+        <m:mn>60</m:mn>
+        <m:mi>\</m:mi>
+        <m:mi>;</m:mi>
+    </m:mrow>
+</m:mstyle>
+<m:annotation encoding="latex">60\; </m:annotation>
+</m:semantics>
+</m:math>
+<m:math>
+<m:semantics>
+<m:mstyle displaystyle="true" scriptlevel="0">
+    <m:mrow class="MJX-TeXAtom-ORD" />
+</m:mstyle>
+<m:annotation encoding="latex"></m:annotation>
+</m:semantics>
+</m:math>
+</simpleChoice>
+		<simpleChoice identifier="B" fixed="false" showHide="show"><m:math>
+<m:semantics>
+<m:mstyle displaystyle="true" scriptlevel="0">
+    <m:mrow class="MJX-TeXAtom-ORD">
+        <m:mn>15</m:mn>
+        <m:mi>\</m:mi>
+        <m:mi>;</m:mi>
+    </m:mrow>
+</m:mstyle>
+<m:annotation encoding="latex">15\; </m:annotation>
+</m:semantics>
+</m:math>
+<m:math>
+<m:semantics>
+<m:mstyle displaystyle="true" scriptlevel="0">
+    <m:mrow class="MJX-TeXAtom-ORD" />
+</m:mstyle>
+<m:annotation encoding="latex"></m:annotation>
+</m:semantics>
+</m:math>
+</simpleChoice>
+		<simpleChoice identifier="C" fixed="false" showHide="show"><m:math>
+<m:semantics>
+<m:mstyle displaystyle="true" scriptlevel="0">
+    <m:mrow class="MJX-TeXAtom-ORD">
+        <m:mn>20</m:mn>
+        <m:mi>\</m:mi>
+        <m:mi>;</m:mi>
+    </m:mrow>
+</m:mstyle>
+<m:annotation encoding="latex">20\; </m:annotation>
+</m:semantics>
+</m:math>
+<m:math>
+<m:semantics>
+<m:mstyle displaystyle="true" scriptlevel="0">
+    <m:mrow class="MJX-TeXAtom-ORD" />
+</m:mstyle>
+<m:annotation encoding="latex"></m:annotation>
+</m:semantics>
+</m:math>
+</simpleChoice>
+		<simpleChoice identifier="D" fixed="false" showHide="show"><m:math>
+<m:semantics>
+<m:mstyle displaystyle="true" scriptlevel="0">
+    <m:mrow class="MJX-TeXAtom-ORD">
+        <m:mn>40</m:mn>
+        <m:mi>\</m:mi>
+        <m:mi>;</m:mi>
+    </m:mrow>
+</m:mstyle>
+<m:annotation encoding="latex">40\; </m:annotation>
+</m:semantics>
+</m:math>
+<m:math>
+<m:semantics>
+<m:mstyle displaystyle="true" scriptlevel="0">
+    <m:mrow class="MJX-TeXAtom-ORD" />
+</m:mstyle>
+<m:annotation encoding="latex"></m:annotation>
+</m:semantics>
+</m:math>
+</simpleChoice>
+
+        </choiceInteraction>
+      </div>
+    </div>
+  </itemBody>
+  <responseProcessing template="http://www.imsglobal.org/question/qti_v2p2/rptemplates/match_correct"/>
+</assessmentItem>

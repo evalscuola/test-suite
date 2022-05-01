@@ -1,0 +1,59 @@
+<?xml version="1.0"?>
+<manifest xmlns="http://www.imsglobal.org/xsd/imscp_v1p1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.imsglobal.org/xsd/imscp_v1p1 http://www.imsglobal.org/xsd/qti/qtiv2p2/qtiv2p2_imscpv1p2_v1p0.xsd" identifier="MANIFEST-tao5ea08a12321dd7-47963420">
+    <metadata>
+        <schema>QTIv2.2 Package</schema>
+        <schemaversion>1.0.0</schemaversion>
+    </metadata>
+    <organizations/>
+    <resources>
+      <resource identifier="CP5401400010" type="imsqti_item_xmlv2p2" href="qCP5401400010.xml"><file href="qCP5401400010.xml"/></resource>
+      <resource identifier="CP5401400020" type="imsqti_item_xmlv2p2" href="qCP5401400020.xml"><file href="qCP5401400020.xml"/></resource>
+      <resource identifier="CP5401400030" type="imsqti_item_xmlv2p2" href="qCP5401400030.xml"><file href="qCP5401400030.xml"/></resource>
+      <resource identifier="CP5401400040" type="imsqti_item_xmlv2p2" href="qCP5401400040.xml"><file href="qCP5401400040.xml"/></resource>
+      <resource identifier="CP5401400050" type="imsqti_item_xmlv2p2" href="qCP5401400050.xml"><file href="qCP5401400050.xml"/></resource>
+      <resource identifier="CP5401400060" type="imsqti_item_xmlv2p2" href="qCP5401400060.xml"><file href="qCP5401400060.xml"/></resource>
+
+      <resource identifier="CP5402400010" type="imsqti_item_xmlv2p2" href="qCP5402400010.xml"><file href="qCP5402400010.xml"/></resource>
+      <resource identifier="CP5402400020" type="imsqti_item_xmlv2p2" href="qCP5402400020.xml"><file href="qCP5402400020.xml"/></resource>
+      <resource identifier="CP5402400030" type="imsqti_item_xmlv2p2" href="qCP5402400030.xml"><file href="qCP5402400030.xml"/></resource>
+      <resource identifier="CP5402400040" type="imsqti_item_xmlv2p2" href="qCP5402400040.xml"><file href="qCP5402400040.xml"/></resource>
+      <resource identifier="CP5402400050" type="imsqti_item_xmlv2p2" href="qCP5402400050.xml"><file href="qCP5402400050.xml"/></resource>
+      <resource identifier="CP5402400060" type="imsqti_item_xmlv2p2" href="qCP5402400060.xml"><file href="qCP5402400060.xml"/></resource>
+      <resource identifier="CP5402400070" type="imsqti_item_xmlv2p2" href="qCP5402400070.xml"><file href="qCP5402400070.xml"/></resource>
+      <resource identifier="CP5402400080" type="imsqti_item_xmlv2p2" href="qCP5402400080.xml"><file href="qCP5402400080.xml"/></resource>
+      <resource identifier="CP5402400090" type="imsqti_item_xmlv2p2" href="qCP5402400090.xml"><file href="qCP5402400090.xml"/></resource>
+      <resource identifier="CP5402400100" type="imsqti_item_xmlv2p2" href="qCP5402400100.xml"><file href="qCP5402400100.xml"/></resource>
+      <resource identifier="CP5402400110" type="imsqti_item_xmlv2p2" href="qCP5402400110.xml"><file href="qCP5402400110.xml"/></resource>
+      <resource identifier="CP5402400120" type="imsqti_item_xmlv2p2" href="qCP5402400120.xml"><file href="qCP5402400120.xml"/></resource>
+      <resource identifier="CP5402400130" type="imsqti_item_xmlv2p2" href="qCP5402400130.xml"><file href="qCP5402400130.xml"/></resource>
+      <resource identifier="CP5402400140" type="imsqti_item_xmlv2p2" href="qCP5402400140.xml"><file href="qCP5402400140.xml"/></resource>
+      <resource identifier="CP5402400150" type="imsqti_item_xmlv2p2" href="qCP5402400150.xml"><file href="qCP5402400150.xml"/></resource>
+      <resource identifier="CP5402400160" type="imsqti_item_xmlv2p2" href="qCP5402400160.xml"><file href="qCP5402400160.xml"/></resource>
+      <resource identifier="CP5402400170" type="imsqti_item_xmlv2p2" href="qCP5402400170.xml"><file href="qCP5402400170.xml"/></resource>
+      <resource identifier="CP5402400180" type="imsqti_item_xmlv2p2" href="qCP5402400180.xml"><file href="qCP5402400180.xml"/></resource>
+      <resource identifier="CP5402400190" type="imsqti_item_xmlv2p2" href="qCP5402400190.xml"><file href="qCP5402400190.xml"/></resource>
+      <resource identifier="CP5402400200" type="imsqti_item_xmlv2p2" href="qCP5402400200.xml"><file href="qCP5402400200.xml"/></resource>
+      <resource identifier="CP5402400210" type="imsqti_item_xmlv2p2" href="qCP5402400210.xml"><file href="qCP5402400210.xml"/></resource>
+      <resource identifier="CP5402400220" type="imsqti_item_xmlv2p2" href="qCP5402400220.xml"><file href="qCP5402400220.xml"/></resource>
+      <resource identifier="CP5402400230" type="imsqti_item_xmlv2p2" href="qCP5402400230.xml"><file href="qCP5402400230.xml"/></resource>
+
+      <resource identifier="CP5404400010" type="imsqti_item_xmlv2p2" href="qCP5404400010.xml"><file href="qCP5404400010.xml"/></resource>
+      <resource identifier="CP5404400020" type="imsqti_item_xmlv2p2" href="qCP5404400020.xml"><file href="qCP5404400020.xml"/></resource>
+      <resource identifier="CP5404400030" type="imsqti_item_xmlv2p2" href="qCP5404400030.xml"><file href="qCP5404400030.xml"/></resource>
+      <resource identifier="CP5404400040" type="imsqti_item_xmlv2p2" href="qCP5404400040.xml"><file href="qCP5404400040.xml"/></resource>
+      <resource identifier="CP5404400050" type="imsqti_item_xmlv2p2" href="qCP5404400050.xml"><file href="qCP5404400050.xml"/></resource>
+      <resource identifier="CP5404400060" type="imsqti_item_xmlv2p2" href="qCP5404400060.xml"><file href="qCP5404400060.xml"/></resource>
+      <resource identifier="CP5404400070" type="imsqti_item_xmlv2p2" href="qCP5404400070.xml"><file href="qCP5404400070.xml"/></resource>
+      <resource identifier="CP5404400080" type="imsqti_item_xmlv2p2" href="qCP5404400080.xml"><file href="qCP5404400080.xml"/></resource>
+      <resource identifier="CP5404400090" type="imsqti_item_xmlv2p2" href="qCP5404400090.xml"><file href="qCP5404400090.xml"/></resource>
+      <resource identifier="CP5404400100" type="imsqti_item_xmlv2p2" href="qCP5404400100.xml"><file href="qCP5404400100.xml"/></resource>
+      <resource identifier="CP5404400110" type="imsqti_item_xmlv2p2" href="qCP5404400110.xml"><file href="qCP5404400110.xml"/></resource>
+
+      <resource identifier="CP5405400010" type="imsqti_item_xmlv2p2" href="qCP5405400010.xml"><file href="qCP5405400010.xml"/></resource>
+      <resource identifier="CP5405400020" type="imsqti_item_xmlv2p2" href="qCP5405400020.xml"><file href="qCP5405400020.xml"/></resource>
+      <resource identifier="CP5405400030" type="imsqti_item_xmlv2p2" href="qCP5405400030.xml"><file href="qCP5405400030.xml"/></resource>
+      <resource identifier="CP5405400040" type="imsqti_item_xmlv2p2" href="qCP5405400040.xml"><file href="qCP5405400040.xml"/></resource>
+      <resource identifier="CP5405400050" type="imsqti_item_xmlv2p2" href="qCP5405400050.xml"><file href="qCP5405400050.xml"/></resource>
+      
+   </resources>
+</manifest>

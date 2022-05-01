@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<assessmentItem xmlns="http://www.imsglobal.org/xsd/imsqti_v2p2" xmlns:m="http://www.w3.org/1998/Math/MathML" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.imsglobal.org/xsd/imsqti_v2p2 http://www.imsglobal.org/xsd/qti/qtiv2p2/imsqti_v2p2.xsd" identifier="MA2401400010" title="domanda" label="MA2401400010" xml:lang="it-IT" adaptive="false" timeDependent="false" toolName="TAO" toolVersion="3.3.0-RC02">
+  <responseDeclaration identifier="RESPONSE" cardinality="single" baseType="identifier">
+    <correctResponse>
+      <value><![CDATA[A]]></value>
+    </correctResponse>
+  </responseDeclaration>
+  <outcomeDeclaration identifier="SCORE" cardinality="single" baseType="float" normalMaximum="1"/>
+  <outcomeDeclaration identifier="MAXSCORE" cardinality="single" baseType="float">
+    <defaultValue>
+      <value>1</value>
+    </defaultValue>
+  </outcomeDeclaration>
+
+  <itemBody>
+    <div class="grid-row">
+      <div class="col-12">
+        <choiceInteraction responseIdentifier="RESPONSE" shuffle="true" maxChoices="1" minChoices="0" orientation="vertical" class="eliminability-deselected">
+
+		<prompt>Si stabilisca quali delle seguenti relazioni sono delle corrispondenze biunivoche. </prompt>
+		<simpleChoice identifier="A" fixed="false" showHide="show">La relazione che associa a ogni alunno della tua classe il paio di scarpe che indossava il primo giorno di scuola. </simpleChoice>
+		<simpleChoice identifier="B" fixed="false" showHide="show">La relazione che associa a ogni libro di testo adottato nella tua scuola il corrispondente numero di pagine. </simpleChoice>
+		<simpleChoice identifier="C" fixed="false" showHide="show">La relazione che associa a ogni alunno di una classe i suoi libri di testo. </simpleChoice>
+		<simpleChoice identifier="D" fixed="false" showHide="show">La relazione che associa a ogni mela raccolta nel frutteto di Maria l’albero da cui è stata colta. </simpleChoice>
+
+        </choiceInteraction>
+      </div>
+    </div>
+  </itemBody>
+  <responseProcessing template="http://www.imsglobal.org/question/qti_v2p2/rptemplates/match_correct"/>
+</assessmentItem>

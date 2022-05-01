@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<assessmentItem xmlns="http://www.imsglobal.org/xsd/imsqti_v2p2" xmlns:m="http://www.w3.org/1998/Math/MathML" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.imsglobal.org/xsd/imsqti_v2p2 http://www.imsglobal.org/xsd/qti/qtiv2p2/imsqti_v2p2.xsd" identifier="MA1505400040" title="domanda" label="MA1505400040" xml:lang="it-IT" adaptive="false" timeDependent="false" toolName="TAO" toolVersion="3.3.0-RC02">
+  <responseDeclaration identifier="RESPONSE" cardinality="single" baseType="identifier">
+    <correctResponse>
+      <value><![CDATA[A]]></value>
+    </correctResponse>
+  </responseDeclaration>
+  <outcomeDeclaration identifier="SCORE" cardinality="single" baseType="float" normalMaximum="1"/>
+  <outcomeDeclaration identifier="MAXSCORE" cardinality="single" baseType="float">
+    <defaultValue>
+      <value>1</value>
+    </defaultValue>
+  </outcomeDeclaration>
+
+  <itemBody>
+    <div class="grid-row">
+      <div class="col-12">
+        <choiceInteraction responseIdentifier="RESPONSE" shuffle="true" maxChoices="1" minChoices="0" orientation="vertical" class="eliminability-deselected">
+
+		<prompt>Nella figura , si determini dove si deve posizionare il punto $P$, sul segmento $AB$ di lunghezza 13 cm, in modo che il poligono $APEF$ abbia la stessa area del poligono $PEDCB$. Si ponga $AP=x$. Suggerimento: l'area di $APEF$ deve essere la met\`a dell'area di $ABCDEF$; quest'ultima si pu\`o calcolare come differenza tra l'area del trapezio rettangolo $ABGF$, dove $G$ \`e l'incrocio del prolungamento di $FE$ con il prolungamento di $BC$, e l'area del rettangolo di lati $ED$ e $DC$. L'area di un trapezio \`e $\frac{(B + b)\cdot h}{2}$. </prompt>
+		<simpleChoice identifier="A" fixed="false" showHide="show">$AP = 1,5$ cm. </simpleChoice>
+		<simpleChoice identifier="B" fixed="false" showHide="show">$AP = 1,74$ cm. </simpleChoice>
+		<simpleChoice identifier="C" fixed="false" showHide="show">$AP = 2,2$ cm. </simpleChoice>
+		<simpleChoice identifier="D" fixed="false" showHide="show">$AP = 2,5$ cm.   </simpleChoice>
+
+        </choiceInteraction>
+      </div>
+    </div>
+  </itemBody>
+  <responseProcessing template="http://www.imsglobal.org/question/qti_v2p2/rptemplates/match_correct"/>
+</assessmentItem>

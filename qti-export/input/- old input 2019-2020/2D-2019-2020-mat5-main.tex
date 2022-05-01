@@ -1,0 +1,217 @@
+\documentclass[10pt,a4paper]{article} 
+\pagestyle{empty}
+
+\usepackage{tikz}
+\newcommand*\circled[1]{\tikz[baseline=(char.base)]{
+%            \node[shape=circle,draw,inner sep=2pt] (char) {#1};}}
+            \node[shape=circle,draw,inner sep=2pt] (char) {$\phantom{8}$};
+            \node[draw=none,fill=none] (char) {#1};}}
+            
+\newcommand*\squared[1]{\tikz[baseline=(char.base)]{
+            \node[shape=rectangle,draw,inner sep=3pt] (char) {$\phantom{A}$};
+            \node[draw=none,fill=none] (char) {#1};}}
+
+
+            
+\usepackage{enumitem}
+
+
+
+\usepackage{amsmath}
+\usepackage{amssymb,amsfonts,textcomp}
+% \usepackage{amsfonts}
+ \usepackage{latexsym}
+ \usepackage{epsfig}
+ \usepackage{graphicx}
+ \usepackage{fancyhdr}
+ \usepackage{verbatim}
+ 
+ \usepackage{multicol}
+% \usepackage{flushend}
+% \usepackage{lipsum}
+
+ \usepackage{cancel}
+ 
+ \fancyhf{}
+ \renewcommand\headrule{}
+ 
+%\usepackage[latin1]{inputenc}
+\usepackage[utf8]{inputenc}
+
+%%%%% TIMES
+\usepackage{txfonts}
+\usepackage{mathptmx}
+
+\everymath{\displaystyle}
+
+
+%%%%% MATHPAZO
+%\usepackage[sc]{mathpazo}
+
+
+%%%%%  LIBERTINE
+%\usepackage{libertine}
+%\usepackage[libertine,cmintegrals,cmbraces,vvarbb]{newtxmath}
+%\usepackage[scaled=0.95]{inconsolata}
+
+
+
+\usepackage{eurosym}
+
+
+\usepackage[italian]{babel}
+
+
+
+\addtolength{\textwidth}{+60mm}
+\addtolength{\oddsidemargin}{-31mm}
+\addtolength{\textheight}{+60mm}
+\addtolength{\topmargin}{-32mm}
+
+\newcommand{\mybox}{\fbox{$\phantom{\frac{M}{M}}\qquad\qquad\qquad \qquad$}$\ $}
+\newcommand{\longmybox}{\fbox{$\phantom{\frac{M}{M}}\ \ \ \qquad \qquad \qquad\qquad\qquad \qquad \qquad$}$\ $}
+\newcommand{\shortmybox}{\fbox{$\phantom{\frac{M}{M}}\qquad\qquad\quad $}$\ $}
+\newcommand{\veryshortmybox}{\fbox{$\phantom{\frac{M}{M}}\qquad\qquad $}$\ $}
+
+
+\title{\textsc{Liceo Statale ``Niccolò Machiavelli'' di Roma}\\
+		2$^\circ$ anno -- Verifica di Matematica n. 5 -- Sistemi e intersezioni fra rette} % ed Euclide
+\author{}
+\date{} 
+
+\pagestyle{fancy}
+
+\newcommand{\cotan}{\mathrm{cotan\,}}%\,}
+%\newcommand{\ee}{\mathrm{e}}
+\newcommand{\Log}{\mathrm{Log}\,}
+
+
+
+
+\begin{document}
+\thispagestyle{empty}
+
+
+
+
+\maketitle
+\vspace{-1cm}
+
+%\noindent
+%{\bf %@date@ -- Classe @class@ 
+%Versione @ver@}
+
+%\begin{comment}
+\noindent
+\begin{tabular}{p{2.1cm} r r r }
+{\bf %@date@ -- Classe @class@ 
+Versione @ver@} & Data \shortmybox $\ $& Classe \shortmybox $\ $ & Alunno \longmybox  \\
+\end{tabular}
+%\end{comment}
+
+\vspace{1cm}
+
+
+\thispagestyle{fancy}
+
+\noindent 
+Il punteggio 
+per ogni risposta corretta è di 4 punti,
+%riportato all'inizio del quesito.
+%Inoltre saranno assegnati %4 punti per ogni risposta corretta, 
+per ogni risposta omessa 1 punto, per ogni risposta sbagliata 0 punti. % e 
+La durata della verifica è di cinquanta minuti.
+%La durata della verifica è di un'ora.
+{\bf Saranno valutate esclusivamente le risposte riportate nella tabella.}  
+%\vspace{.5cm}
+
+\tikz[remember picture,overlay] \node[inner sep=0pt, shift={(-4 cm,-1cm)}] at (current page.north east){\includegraphics[width=5.6cm]{buon-compito.pdf}};%{\Large $\mathscr{Buon compito}$};
+
+
+
+\vspace{0cm}
+\noindent
+\begin{center}
+%\vspace{-1cm}
+\begin{tabular}{ | c | c | c | c | c | c | c | c | c | c | c | c |%
+ c | c | c | c | c | c | c | c |}
+\hline
+\multicolumn{20}{|l|}{ {\bf Risposte}} \\ %Tabella delle risposte
+\hline
+1 &  2 &  3 &  4 &  5 & 
+6 &  7 &  8 &  9 &  10 & 
+ 11 &  12 &  13 &  14 &  15 & 
+ 16 &  17 &  18 &  19 &  20 
+\\
+\hline
+$\ $ & $\ $ & $\ $ & $\ $ & $\ $ & 
+$\ $ & $\ $ & $\ $ & $\ $ & $\ $ & 
+$\ $ & $\ $ & $\ $ & $\ $ & $\ $ &
+$\ $ & $\ $ & $\ $ & $\ $ & $\ $
+\\
+\hline
+21 & 22 & 23 & 24 & 25 & 26 & 27 & 28 & 29 & 30 & 
+31 & 32 & 33 & 34 & 35 & 36 & 37 & 38 & 39 & 40
+\\
+\hline
+$\ $ & $\ $ & $\ $ & $\ $ & $\ $ & 
+$\ $ & $\ $ & $\ $ & $\ $ & $\ $ & 
+$\ $ & $\ $ & $\ $ & $\ $ & $\ $ &
+$\ $ & $\ $ & $\ $ & $\ $ & $\ $
+\\
+\hline
+\end{tabular}
+\end{center}
+\vspace{.2cm}
+
+
+
+\begin{multicols}{2}
+
+\begin{enumerate}[label=\protect\circled{\arabic*}]
+
+@QUESTIONS@
+
+\end{enumerate}
+
+\end{multicols}
+
+
+\newpage
+
+\vspace{.5cm}
+\begin{multicols}{3}
+	\noindent
+
+@FIGURES@
+
+%
+\end{multicols}
+
+
+
+\vspace{.5cm}
+
+@TABLES@
+
+
+\vfill
+
+{\bf %@date@ -- Classe @class@ 
+Versione @ver@}
+\begin{comment}
+\begin{tabular}{p{2.1cm} r r r }
+{\bf %@date@ -- Classe @class@ 
+Versione @ver@} & Data \shortmybox $\ $& Classe \shortmybox $\ $ & Alunno \longmybox  \\
+\end{tabular}
+\end{comment}
+
+\newpage
+
+$\ $
+
+
+
+\end{document}
+%
+

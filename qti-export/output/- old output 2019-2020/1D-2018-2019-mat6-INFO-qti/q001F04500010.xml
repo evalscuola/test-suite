@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<assessmentItem xmlns="http://www.imsglobal.org/xsd/imsqti_v2p2" xmlns:m="http://www.w3.org/1998/Math/MathML" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.imsglobal.org/xsd/imsqti_v2p2 http://www.imsglobal.org/xsd/qti/qtiv2p2/imsqti_v2p2.xsd" identifier="i001F04500010" title="domanda" label="001F04500010" xml:lang="en-US" adaptive="false" timeDependent="false" toolName="TAO" toolVersion="3.3.0-RC02">
+  <responseDeclaration identifier="RESPONSE" cardinality="single" baseType="identifier">
+    <correctResponse>
+      <value><![CDATA[A]]></value>
+    </correctResponse>
+  </responseDeclaration>
+  <outcomeDeclaration identifier="SCORE" cardinality="single" baseType="float" normalMaximum="1"/>
+  <outcomeDeclaration identifier="MAXSCORE" cardinality="single" baseType="float">
+    <defaultValue>
+      <value>1</value>
+    </defaultValue>
+  </outcomeDeclaration>
+
+  <itemBody>
+    <div class="grid-row">
+      <div class="col-12">
+        <choiceInteraction responseIdentifier="RESPONSE" shuffle="true" maxChoices="1" minChoices="0" orientation="vertical" class="eliminability-deselected">
+
+		<prompt>Il tempo di durata di un tipo di lampadine ha una distribuzione gaussiana. La durata media è 600 ore e lo scarto quadratico medio è 25 ore. Su una produzione di 4000 lampadine, si determini quante avranno una durata compresa tra 550 e 600 ore. 
+</prompt>
+		<simpleChoice identifier="A" fixed="false" showHide="show">1909. </simpleChoice>
+		<simpleChoice identifier="B" fixed="false" showHide="show">1365. </simpleChoice>
+		<simpleChoice identifier="C" fixed="false" showHide="show">3818. </simpleChoice>
+		<simpleChoice identifier="D" fixed="false" showHide="show">1995. </simpleChoice>
+
+        </choiceInteraction>
+      </div>
+    </div>
+  </itemBody>
+  <responseProcessing template="http://www.imsglobal.org/question/qti_v2p2/rptemplates/match_correct"/>
+</assessmentItem>

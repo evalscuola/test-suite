@@ -1,0 +1,236 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<assessmentItem xmlns="http://www.imsglobal.org/xsd/imsqti_v2p2" xmlns:m="http://www.w3.org/1998/Math/MathML" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.imsglobal.org/xsd/imsqti_v2p2 http://www.imsglobal.org/xsd/qti/qtiv2p2/imsqti_v2p2.xsd" identifier="i001C02500020" title="domanda" label="001C02500020" xml:lang="en-US" adaptive="false" timeDependent="false" toolName="TAO" toolVersion="3.3.0-RC02">
+  <responseDeclaration identifier="RESPONSE" cardinality="single" baseType="identifier">
+    <correctResponse>
+      <value><![CDATA[A]]></value>
+    </correctResponse>
+  </responseDeclaration>
+  <outcomeDeclaration identifier="SCORE" cardinality="single" baseType="float" normalMaximum="1"/>
+  <outcomeDeclaration identifier="MAXSCORE" cardinality="single" baseType="float">
+    <defaultValue>
+      <value>1</value>
+    </defaultValue>
+  </outcomeDeclaration>
+
+  <itemBody>
+    <div class="grid-row">
+      <div class="col-12">
+        <choiceInteraction responseIdentifier="RESPONSE" shuffle="true" maxChoices="1" minChoices="0" orientation="vertical" class="eliminability-deselected">
+
+		<prompt>Osservando la figura , si può dire che: 
+</prompt>
+		<simpleChoice identifier="A" fixed="false" showHide="show"><m:math>
+<m:semantics>
+<m:mstyle displaystyle="true" scriptlevel="0">
+    <m:mrow class="MJX-TeXAtom-ORD">
+        <m:mi>γ</m:mi>
+    </m:mrow>
+</m:mstyle>
+<m:annotation encoding="latex">\gamma</m:annotation>
+</m:semantics>
+</m:math>
+ e <m:math>
+<m:semantics>
+<m:mstyle displaystyle="true" scriptlevel="0">
+    <m:mrow class="MJX-TeXAtom-ORD">
+        <m:mi>δ</m:mi>
+    </m:mrow>
+</m:mstyle>
+<m:annotation encoding="latex">\delta</m:annotation>
+</m:semantics>
+</m:math>
+ sono angoli alterni interni delle rette <m:math>
+<m:semantics>
+<m:mstyle displaystyle="true" scriptlevel="0">
+    <m:mrow class="MJX-TeXAtom-ORD">
+        <m:mi>r</m:mi>
+    </m:mrow>
+</m:mstyle>
+<m:annotation encoding="latex">r</m:annotation>
+</m:semantics>
+</m:math>
+ e <m:math>
+<m:semantics>
+<m:mstyle displaystyle="true" scriptlevel="0">
+    <m:mrow class="MJX-TeXAtom-ORD">
+        <m:mi>s</m:mi>
+    </m:mrow>
+</m:mstyle>
+<m:annotation encoding="latex">s</m:annotation>
+</m:semantics>
+</m:math>
+ tagliate dalla trasversale <m:math>
+<m:semantics>
+<m:mstyle displaystyle="true" scriptlevel="0">
+    <m:mrow class="MJX-TeXAtom-ORD">
+        <m:mi>B</m:mi>
+        <m:mi>C</m:mi>
+    </m:mrow>
+</m:mstyle>
+<m:annotation encoding="latex">BC</m:annotation>
+</m:semantics>
+</m:math>
+. </simpleChoice>
+		<simpleChoice identifier="B" fixed="false" showHide="show"><m:math>
+<m:semantics>
+<m:mstyle displaystyle="true" scriptlevel="0">
+    <m:mrow class="MJX-TeXAtom-ORD">
+        <m:mi>α</m:mi>
+    </m:mrow>
+</m:mstyle>
+<m:annotation encoding="latex">\alpha</m:annotation>
+</m:semantics>
+</m:math>
+ e <m:math>
+<m:semantics>
+<m:mstyle displaystyle="true" scriptlevel="0">
+    <m:mrow class="MJX-TeXAtom-ORD">
+        <m:mi>β</m:mi>
+    </m:mrow>
+</m:mstyle>
+<m:annotation encoding="latex">\beta</m:annotation>
+</m:semantics>
+</m:math>
+ sono angoli alterni esterni delle rette <m:math>
+<m:semantics>
+<m:mstyle displaystyle="true" scriptlevel="0">
+    <m:mrow class="MJX-TeXAtom-ORD">
+        <m:mi>r</m:mi>
+    </m:mrow>
+</m:mstyle>
+<m:annotation encoding="latex">r</m:annotation>
+</m:semantics>
+</m:math>
+ e <m:math>
+<m:semantics>
+<m:mstyle displaystyle="true" scriptlevel="0">
+    <m:mrow class="MJX-TeXAtom-ORD">
+        <m:mi>s</m:mi>
+    </m:mrow>
+</m:mstyle>
+<m:annotation encoding="latex">s</m:annotation>
+</m:semantics>
+</m:math>
+ tagliate dalla trasversale <m:math>
+<m:semantics>
+<m:mstyle displaystyle="true" scriptlevel="0">
+    <m:mrow class="MJX-TeXAtom-ORD">
+        <m:mi>A</m:mi>
+        <m:mi>C</m:mi>
+    </m:mrow>
+</m:mstyle>
+<m:annotation encoding="latex">AC</m:annotation>
+</m:semantics>
+</m:math>
+. </simpleChoice>
+		<simpleChoice identifier="C" fixed="false" showHide="show"><m:math>
+<m:semantics>
+<m:mstyle displaystyle="true" scriptlevel="0">
+    <m:mrow class="MJX-TeXAtom-ORD">
+        <m:mi>β</m:mi>
+    </m:mrow>
+</m:mstyle>
+<m:annotation encoding="latex">\beta</m:annotation>
+</m:semantics>
+</m:math>
+ e <m:math>
+<m:semantics>
+<m:mstyle displaystyle="true" scriptlevel="0">
+    <m:mrow class="MJX-TeXAtom-ORD">
+        <m:mi>δ</m:mi>
+    </m:mrow>
+</m:mstyle>
+<m:annotation encoding="latex">\delta</m:annotation>
+</m:semantics>
+</m:math>
+ sono angoli corrispondenti delle parallele <m:math>
+<m:semantics>
+<m:mstyle displaystyle="true" scriptlevel="0">
+    <m:mrow class="MJX-TeXAtom-ORD">
+        <m:mi>r</m:mi>
+    </m:mrow>
+</m:mstyle>
+<m:annotation encoding="latex">r</m:annotation>
+</m:semantics>
+</m:math>
+ e <m:math>
+<m:semantics>
+<m:mstyle displaystyle="true" scriptlevel="0">
+    <m:mrow class="MJX-TeXAtom-ORD">
+        <m:mi>s</m:mi>
+    </m:mrow>
+</m:mstyle>
+<m:annotation encoding="latex">s</m:annotation>
+</m:semantics>
+</m:math>
+ tagliate dalla trasversale <m:math>
+<m:semantics>
+<m:mstyle displaystyle="true" scriptlevel="0">
+    <m:mrow class="MJX-TeXAtom-ORD">
+        <m:mi>B</m:mi>
+        <m:mi>C</m:mi>
+    </m:mrow>
+</m:mstyle>
+<m:annotation encoding="latex">BC</m:annotation>
+</m:semantics>
+</m:math>
+. </simpleChoice>
+		<simpleChoice identifier="D" fixed="false" showHide="show"><m:math>
+<m:semantics>
+<m:mstyle displaystyle="true" scriptlevel="0">
+    <m:mrow class="MJX-TeXAtom-ORD">
+        <m:mi>α</m:mi>
+    </m:mrow>
+</m:mstyle>
+<m:annotation encoding="latex">\alpha</m:annotation>
+</m:semantics>
+</m:math>
+ e <m:math>
+<m:semantics>
+<m:mstyle displaystyle="true" scriptlevel="0">
+    <m:mrow class="MJX-TeXAtom-ORD">
+        <m:mi>γ</m:mi>
+    </m:mrow>
+</m:mstyle>
+<m:annotation encoding="latex">\gamma</m:annotation>
+</m:semantics>
+</m:math>
+ sono angoli corrispondenti delle parallele <m:math>
+<m:semantics>
+<m:mstyle displaystyle="true" scriptlevel="0">
+    <m:mrow class="MJX-TeXAtom-ORD">
+        <m:mi>r</m:mi>
+    </m:mrow>
+</m:mstyle>
+<m:annotation encoding="latex">r</m:annotation>
+</m:semantics>
+</m:math>
+ e <m:math>
+<m:semantics>
+<m:mstyle displaystyle="true" scriptlevel="0">
+    <m:mrow class="MJX-TeXAtom-ORD">
+        <m:mi>s</m:mi>
+    </m:mrow>
+</m:mstyle>
+<m:annotation encoding="latex">s</m:annotation>
+</m:semantics>
+</m:math>
+ tagliate dalla trasversale <m:math>
+<m:semantics>
+<m:mstyle displaystyle="true" scriptlevel="0">
+    <m:mrow class="MJX-TeXAtom-ORD">
+        <m:mi>A</m:mi>
+        <m:mi>C</m:mi>
+    </m:mrow>
+</m:mstyle>
+<m:annotation encoding="latex">AC</m:annotation>
+</m:semantics>
+</m:math>
+. </simpleChoice>
+
+        </choiceInteraction>
+      </div>
+    </div>
+  </itemBody>
+  <responseProcessing template="http://www.imsglobal.org/question/qti_v2p2/rptemplates/match_correct"/>
+</assessmentItem>

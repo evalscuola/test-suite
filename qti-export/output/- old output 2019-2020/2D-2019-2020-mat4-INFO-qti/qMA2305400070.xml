@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<assessmentItem xmlns="http://www.imsglobal.org/xsd/imsqti_v2p2" xmlns:m="http://www.w3.org/1998/Math/MathML" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.imsglobal.org/xsd/imsqti_v2p2 http://www.imsglobal.org/xsd/qti/qtiv2p2/imsqti_v2p2.xsd" identifier="MA2305400070" title="domanda" label="MA2305400070" xml:lang="it-IT" adaptive="false" timeDependent="false" toolName="TAO" toolVersion="3.3.0-RC02">
+  <responseDeclaration identifier="RESPONSE" cardinality="single" baseType="identifier">
+    <correctResponse>
+      <value><![CDATA[A]]></value>
+    </correctResponse>
+  </responseDeclaration>
+  <outcomeDeclaration identifier="SCORE" cardinality="single" baseType="float" normalMaximum="1"/>
+  <outcomeDeclaration identifier="MAXSCORE" cardinality="single" baseType="float">
+    <defaultValue>
+      <value>1</value>
+    </defaultValue>
+  </outcomeDeclaration>
+
+  <itemBody>
+    <div class="grid-row">
+      <div class="col-12">
+        <choiceInteraction responseIdentifier="RESPONSE" shuffle="true" maxChoices="1" minChoices="0" orientation="vertical" class="eliminability-deselected">
+
+		<prompt>Delle seguenti affermazioni una sola è \emph{falsa}. Si dica quale. </prompt>
+		<simpleChoice identifier="A" fixed="false" showHide="show">Ciascuna delle equazioni $ {ax}+{by}+c=0$ e $ y={mx}+q$ rappresenta tutte le rette di un piano. </simpleChoice>
+		<simpleChoice identifier="B" fixed="false" showHide="show">Nell’equazione $ y={mx}+q$ , $ q$ prende anche il nome di ordinata all’origine. </simpleChoice>
+		<simpleChoice identifier="C" fixed="false" showHide="show">L’equazione di una retta non parallela all’asse $ y$ può essere data in forma implicita e in forma esplicita. </simpleChoice>
+		<simpleChoice identifier="D" fixed="false" showHide="show">La distanza tra due punti aventi la stessa ascissa è data dal valore assoluto della differenza delle ordinate. </simpleChoice>
+
+        </choiceInteraction>
+      </div>
+    </div>
+  </itemBody>
+  <responseProcessing template="http://www.imsglobal.org/question/qti_v2p2/rptemplates/match_correct"/>
+</assessmentItem>

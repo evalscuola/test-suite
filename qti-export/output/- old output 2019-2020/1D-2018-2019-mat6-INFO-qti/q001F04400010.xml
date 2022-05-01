@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<assessmentItem xmlns="http://www.imsglobal.org/xsd/imsqti_v2p2" xmlns:m="http://www.w3.org/1998/Math/MathML" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.imsglobal.org/xsd/imsqti_v2p2 http://www.imsglobal.org/xsd/qti/qtiv2p2/imsqti_v2p2.xsd" identifier="i001F04400010" title="domanda" label="001F04400010" xml:lang="en-US" adaptive="false" timeDependent="false" toolName="TAO" toolVersion="3.3.0-RC02">
+  <responseDeclaration identifier="RESPONSE" cardinality="single" baseType="identifier">
+    <correctResponse>
+      <value><![CDATA[A]]></value>
+    </correctResponse>
+  </responseDeclaration>
+  <outcomeDeclaration identifier="SCORE" cardinality="single" baseType="float" normalMaximum="1"/>
+  <outcomeDeclaration identifier="MAXSCORE" cardinality="single" baseType="float">
+    <defaultValue>
+      <value>1</value>
+    </defaultValue>
+  </outcomeDeclaration>
+
+  <itemBody>
+    <div class="grid-row">
+      <div class="col-12">
+        <choiceInteraction responseIdentifier="RESPONSE" shuffle="true" maxChoices="1" minChoices="0" orientation="vertical" class="eliminability-deselected">
+
+		<prompt>Nel grafico in figura  sono riportate le distribuzioni delle altezze di 1000 individui di una popolazione <m:math>
+<m:semantics>
+<m:mstyle displaystyle="true" scriptlevel="0">
+    <m:mrow class="MJX-TeXAtom-ORD">
+        <m:mi>A</m:mi>
+    </m:mrow>
+</m:mstyle>
+<m:annotation encoding="latex">A</m:annotation>
+</m:semantics>
+</m:math>
+ e di 1200 individui di una popolazione <m:math>
+<m:semantics>
+<m:mstyle displaystyle="true" scriptlevel="0">
+    <m:mrow class="MJX-TeXAtom-ORD">
+        <m:mi>B</m:mi>
+    </m:mrow>
+</m:mstyle>
+<m:annotation encoding="latex">B</m:annotation>
+</m:semantics>
+</m:math>
+.  Si determini quale  delle seguenti affermazioni è \emph{vera}. 
+</prompt>
+		<simpleChoice identifier="A" fixed="false" showHide="show">Più della metà degli individui della popolazione <m:math>
+<m:semantics>
+<m:mstyle displaystyle="true" scriptlevel="0">
+    <m:mrow class="MJX-TeXAtom-ORD">
+        <m:mi>A</m:mi>
+    </m:mrow>
+</m:mstyle>
+<m:annotation encoding="latex">A</m:annotation>
+</m:semantics>
+</m:math>
+ ha un'altezza minore di 155 cm. </simpleChoice>
+		<simpleChoice identifier="B" fixed="false" showHide="show">Gli individui della popolazione <m:math>
+<m:semantics>
+<m:mstyle displaystyle="true" scriptlevel="0">
+    <m:mrow class="MJX-TeXAtom-ORD">
+        <m:mi>A</m:mi>
+    </m:mrow>
+</m:mstyle>
+<m:annotation encoding="latex">A</m:annotation>
+</m:semantics>
+</m:math>
+ sono mediamente più alti degli individui della popolazione <m:math>
+<m:semantics>
+<m:mstyle displaystyle="true" scriptlevel="0">
+    <m:mrow class="MJX-TeXAtom-ORD">
+        <m:mi>B</m:mi>
+    </m:mrow>
+</m:mstyle>
+<m:annotation encoding="latex">B</m:annotation>
+</m:semantics>
+</m:math>
+. </simpleChoice>
+		<simpleChoice identifier="C" fixed="false" showHide="show">Ogni individuo della popolazione <m:math>
+<m:semantics>
+<m:mstyle displaystyle="true" scriptlevel="0">
+    <m:mrow class="MJX-TeXAtom-ORD">
+        <m:mi>A</m:mi>
+    </m:mrow>
+</m:mstyle>
+<m:annotation encoding="latex">A</m:annotation>
+</m:semantics>
+</m:math>
+ è più alto di ogni individuo della popolazione <m:math>
+<m:semantics>
+<m:mstyle displaystyle="true" scriptlevel="0">
+    <m:mrow class="MJX-TeXAtom-ORD">
+        <m:mi>B</m:mi>
+    </m:mrow>
+</m:mstyle>
+<m:annotation encoding="latex">B</m:annotation>
+</m:semantics>
+</m:math>
+. </simpleChoice>
+		<simpleChoice identifier="D" fixed="false" showHide="show">Gli individui più alti della popolazione <m:math>
+<m:semantics>
+<m:mstyle displaystyle="true" scriptlevel="0">
+    <m:mrow class="MJX-TeXAtom-ORD">
+        <m:mi>B</m:mi>
+    </m:mrow>
+</m:mstyle>
+<m:annotation encoding="latex">B</m:annotation>
+</m:semantics>
+</m:math>
+ sono più bassi degli individui più alti della popolazione <m:math>
+<m:semantics>
+<m:mstyle displaystyle="true" scriptlevel="0">
+    <m:mrow class="MJX-TeXAtom-ORD">
+        <m:mi>A</m:mi>
+    </m:mrow>
+</m:mstyle>
+<m:annotation encoding="latex">A</m:annotation>
+</m:semantics>
+</m:math>
+. </simpleChoice>
+
+        </choiceInteraction>
+      </div>
+    </div>
+  </itemBody>
+  <responseProcessing template="http://www.imsglobal.org/question/qti_v2p2/rptemplates/match_correct"/>
+</assessmentItem>

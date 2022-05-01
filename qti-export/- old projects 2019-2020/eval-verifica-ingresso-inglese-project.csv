@@ -1,0 +1,24 @@
+Project name:	eval-verifica-ingresso-inglese
+Project type:				# BES INFO	
+Versions:	32			# number of different versions
+Questions:	40
+INPUT FILES:
+questionlist:	eval-verifica-ingresso-inglese-questionlist.csv
+mainlatex:	eval-verifica-ingresso-inglese-main.tex
+qfolder:	eval-verifica-ingresso-inglese-questions
+replacements:	
+
+OUTPUT FILES:
+qnumber:	eval-verifica-ingresso-inglese-qnumber.csv
+qcodes: 	eval-verifica-ingresso-inglese-qcodes.csv
+qanswerorder:	eval-verifica-ingresso-inglese-qanswerorder.csv
+qkey:   	eval-verifica-ingresso-inglese-qkey.csv
+
+givenanswers:	eval-verifica-ingresso-inglese-givenanswers.csv
+
+SUBSTITUTIONS
+substitution1:	eval-verifica-ingresso-inglese-substitutions.csv
+
+img-dim:	10cm
+# dimensione delle figure: 4.5cm, 4 columns
+copy-dir: 	eval-verifica-ingresso-inglese-copy

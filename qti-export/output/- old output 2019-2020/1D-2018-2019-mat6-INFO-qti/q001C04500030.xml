@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<assessmentItem xmlns="http://www.imsglobal.org/xsd/imsqti_v2p2" xmlns:m="http://www.w3.org/1998/Math/MathML" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.imsglobal.org/xsd/imsqti_v2p2 http://www.imsglobal.org/xsd/qti/qtiv2p2/imsqti_v2p2.xsd" identifier="i001C04500030" title="domanda" label="001C04500030" xml:lang="en-US" adaptive="false" timeDependent="false" toolName="TAO" toolVersion="3.3.0-RC02">
+  <responseDeclaration identifier="RESPONSE" cardinality="single" baseType="identifier">
+    <correctResponse>
+      <value><![CDATA[A]]></value>
+    </correctResponse>
+  </responseDeclaration>
+  <outcomeDeclaration identifier="SCORE" cardinality="single" baseType="float" normalMaximum="1"/>
+  <outcomeDeclaration identifier="MAXSCORE" cardinality="single" baseType="float">
+    <defaultValue>
+      <value>1</value>
+    </defaultValue>
+  </outcomeDeclaration>
+
+  <itemBody>
+    <div class="grid-row">
+      <div class="col-12">
+        <choiceInteraction responseIdentifier="RESPONSE" shuffle="true" maxChoices="1" minChoices="0" orientation="vertical" class="eliminability-deselected">
+
+		<prompt>Si osservi la figura  e si indichi quale delle seguenti affermazioni è \emph{falsa}, dove con <m:math>
+<m:semantics>
+<m:mstyle displaystyle="true" scriptlevel="0">
+    <m:mrow class="MJX-TeXAtom-ORD">
+        <m:mi>\widehat</m:mi>
+        <m:mi>R</m:mi>
+    </m:mrow>
+</m:mstyle>
+<m:annotation encoding="latex">\widehat R</m:annotation>
+</m:semantics>
+</m:math>
+ si è indicato un angolo retto e con <m:math>
+<m:semantics>
+<m:mstyle displaystyle="true" scriptlevel="0">
+    <m:mrow class="MJX-TeXAtom-ORD">
+        <m:mi>\widehat</m:mi>
+        <m:mi>P</m:mi>
+    </m:mrow>
+</m:mstyle>
+<m:annotation encoding="latex">\widehat P</m:annotation>
+</m:semantics>
+</m:math>
+ un angolo piatto. 
+</prompt>
+		<simpleChoice identifier="A" fixed="false" showHide="show"><m:math>
+<m:semantics>
+<m:mstyle displaystyle="true" scriptlevel="0">
+    <m:mrow class="MJX-TeXAtom-ORD">
+        <m:mrow class="MJX-TeXAtom-ORD">
+            <m:mi>H</m:mi>
+            <m:mi>K</m:mi>
+            <m:mi>C</m:mi>
+        </m:mrow>
+        <m:mrow class="MJX-TeXAtom-ORD">
+            <m:mi>≅</m:mi>
+        </m:mrow>
+        <m:mfrac>
+            <m:mn>3</m:mn>
+            <m:mn>2</m:mn>
+        </m:mfrac>
+        <m:mi>\widehat</m:mi>
+        <m:mi>P</m:mi>
+        <m:mo>−</m:mo>
+        <m:mn>2</m:mn>
+        <m:mi>A</m:mi>
+        <m:mi>\widehat</m:mi>
+        <m:mi>B</m:mi>
+        <m:mi>C</m:mi>
+    </m:mrow>
+</m:mstyle>
+<m:annotation encoding="latex">{HKC}{\cong}\frac 3 2\widehat P-2A\widehat BC</m:annotation>
+</m:semantics>
+</m:math>
+ . </simpleChoice>
+		<simpleChoice identifier="B" fixed="false" showHide="show"><m:math>
+<m:semantics>
+<m:mstyle displaystyle="true" scriptlevel="0">
+    <m:mrow class="MJX-TeXAtom-ORD">
+        <m:mi>A</m:mi>
+        <m:mi>\widehat</m:mi>
+        <m:mi>K</m:mi>
+        <m:mi>H</m:mi>
+    </m:mrow>
+</m:mstyle>
+<m:annotation encoding="latex">A\widehat KH</m:annotation>
+</m:semantics>
+</m:math>
+ è complementare di <m:math>
+<m:semantics>
+<m:mstyle displaystyle="true" scriptlevel="0">
+    <m:mrow class="MJX-TeXAtom-ORD">
+        <m:mi>A</m:mi>
+        <m:mi>\widehat</m:mi>
+        <m:mi>B</m:mi>
+        <m:mi>C</m:mi>
+    </m:mrow>
+</m:mstyle>
+<m:annotation encoding="latex">A\widehat BC</m:annotation>
+</m:semantics>
+</m:math>
+. </simpleChoice>
+		<simpleChoice identifier="C" fixed="false" showHide="show"><m:math>
+<m:semantics>
+<m:mstyle displaystyle="true" scriptlevel="0">
+    <m:mrow class="MJX-TeXAtom-ORD">
+        <m:mi>A</m:mi>
+        <m:mi>\widehat</m:mi>
+        <m:mi>K</m:mi>
+        <m:mi>H</m:mi>
+        <m:mo>+</m:mo>
+        <m:mi>K</m:mi>
+        <m:mi>\widehat</m:mi>
+        <m:mi>H</m:mi>
+        <m:mi>A</m:mi>
+        <m:mrow class="MJX-TeXAtom-ORD">
+            <m:mi>≅</m:mi>
+        </m:mrow>
+        <m:mi>A</m:mi>
+        <m:mi>\widehat</m:mi>
+        <m:mi>C</m:mi>
+        <m:mi>B</m:mi>
+        <m:mo>+</m:mo>
+        <m:mi>C</m:mi>
+        <m:mi>\widehat</m:mi>
+        <m:mi>B</m:mi>
+        <m:mi>A</m:mi>
+    </m:mrow>
+</m:mstyle>
+<m:annotation encoding="latex">A\widehat KH+K\widehat HA{\cong}A\widehat CB+C\widehat BA</m:annotation>
+</m:semantics>
+</m:math>
+. </simpleChoice>
+		<simpleChoice identifier="D" fixed="false" showHide="show"><m:math>
+<m:semantics>
+<m:mstyle displaystyle="true" scriptlevel="0">
+    <m:mrow class="MJX-TeXAtom-ORD">
+        <m:mi>A</m:mi>
+        <m:mi>\widehat</m:mi>
+        <m:mi>K</m:mi>
+        <m:mi>H</m:mi>
+        <m:mrow class="MJX-TeXAtom-ORD">
+            <m:mi>≅</m:mi>
+        </m:mrow>
+        <m:mi>\widehat</m:mi>
+        <m:mi>R</m:mi>
+        <m:mo>−</m:mo>
+        <m:mi>A</m:mi>
+        <m:mi>\widehat</m:mi>
+        <m:mi>B</m:mi>
+        <m:mi>C</m:mi>
+    </m:mrow>
+</m:mstyle>
+<m:annotation encoding="latex">A\widehat KH{\cong}\widehat R-A\widehat BC</m:annotation>
+</m:semantics>
+</m:math>
+. </simpleChoice>
+
+        </choiceInteraction>
+      </div>
+    </div>
+  </itemBody>
+  <responseProcessing template="http://www.imsglobal.org/question/qti_v2p2/rptemplates/match_correct"/>
+</assessmentItem>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<assessmentItem xmlns="http://www.imsglobal.org/xsd/imsqti_v2p2" xmlns:m="http://www.w3.org/1998/Math/MathML" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.imsglobal.org/xsd/imsqti_v2p2 http://www.imsglobal.org/xsd/qti/qtiv2p2/imsqti_v2p2.xsd" identifier="i001C05500010" title="domanda" label="001C05500010" xml:lang="en-US" adaptive="false" timeDependent="false" toolName="TAO" toolVersion="3.3.0-RC02">
+  <responseDeclaration identifier="RESPONSE" cardinality="single" baseType="identifier">
+    <correctResponse>
+      <value><![CDATA[A]]></value>
+    </correctResponse>
+  </responseDeclaration>
+  <outcomeDeclaration identifier="SCORE" cardinality="single" baseType="float" normalMaximum="1"/>
+  <outcomeDeclaration identifier="MAXSCORE" cardinality="single" baseType="float">
+    <defaultValue>
+      <value>1</value>
+    </defaultValue>
+  </outcomeDeclaration>
+
+  <itemBody>
+    <div class="grid-row">
+      <div class="col-12">
+        <choiceInteraction responseIdentifier="RESPONSE" shuffle="true" maxChoices="1" minChoices="0" orientation="vertical" class="eliminability-deselected">
+
+		<prompt>Si indichi, fra le seguenti, l'unica proposizione \emph{vera}. 
+</prompt>
+		<simpleChoice identifier="A" fixed="false" showHide="show">Due triangoli rettangoli sono congruenti se hanno congruenti rispettivamente un cateto e l'ipotenusa. </simpleChoice>
+		<simpleChoice identifier="B" fixed="false" showHide="show">Due triangoli rettangoli sono congruenti se hanno rispettivamente congruenti due angoli. </simpleChoice>
+		<simpleChoice identifier="C" fixed="false" showHide="show">Due triangoli sono congruenti se hanno congruenti rispettivamente un lato e un angolo acuto. </simpleChoice>
+		<simpleChoice identifier="D" fixed="false" showHide="show">Due triangoli rettangoli sono congruenti se hanno congruenti rispettivamente un angolo acuto e l'angolo esterno dell'altro angolo acuto. </simpleChoice>
+
+        </choiceInteraction>
+      </div>
+    </div>
+  </itemBody>
+  <responseProcessing template="http://www.imsglobal.org/question/qti_v2p2/rptemplates/match_correct"/>
+</assessmentItem>

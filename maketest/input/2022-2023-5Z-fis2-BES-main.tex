@@ -1,0 +1,208 @@
+\documentclass[11pt,a4paper]{article} %a4paper,
+\pagestyle{empty}
+
+\usepackage{tikz}
+\newcommand*\circled[1]{\tikz[baseline=(char.base)]{
+%            \node[shape=circle,draw,inner sep=2pt] (char) {#1};}}
+            \node[shape=circle,draw,inner sep=2pt] (char) {$\phantom{8}$};
+            \node[draw=none,fill=none] (char) {#1};}}
+            
+\newcommand*\squared[1]{\tikz[baseline=(char.base)]{
+            \node[shape=rectangle,draw,inner sep=3pt] (char) {$\phantom{A}$};
+            \node[draw=none,fill=none] (char) {#1};}}
+
+%\def\checkmark{\tikz\fill[scale=0.4](0,.35) -- (.25,0) -- (1,.7) -- (.25,.15) -- cycle;}
+
+            
+\usepackage{enumitem}
+
+
+
+\usepackage{amsmath}
+\usepackage{amssymb,amsfonts,textcomp}
+% \usepackage{amsfonts}
+ \usepackage{latexsym}
+ \usepackage{epsfig}
+ \usepackage{graphicx}
+ \usepackage{fancyhdr}
+ \usepackage{verbatim}
+ 
+ \usepackage{multicol}
+ \usepackage{cancel}
+ \usepackage{bm}
+ 
+ 
+ \fancyhf{}
+ \renewcommand\headrule{}
+ 
+%\usepackage[latin1]{inputenc}
+\usepackage[utf8]{inputenc}
+
+\usepackage{txfonts}
+
+\usepackage{mathptmx}
+
+\usepackage{eurosym}
+
+
+\usepackage[italian]{babel}
+
+\everymath{\displaystyle}
+
+
+
+\addtolength{\textwidth}{+30mm}
+\addtolength{\oddsidemargin}{-16mm}
+\addtolength{\textheight}{+44mm}
+\addtolength{\topmargin}{-24mm}
+
+\newcommand{\mybox}{\fbox{$\phantom{\frac{M}{M}}\qquad\qquad\qquad \qquad$}$\ $}
+\newcommand{\longmybox}{\fbox{$\phantom{\frac{M}{M}}\ \ \ \qquad \qquad \qquad\qquad\qquad \qquad \qquad$}$\ $}
+\newcommand{\shortmybox}{\fbox{$\phantom{\frac{M}{M}}\qquad\qquad\quad $}$\ $}
+\newcommand{\veryshortmybox}{\fbox{$\phantom{\frac{M}{M}}\qquad\qquad $}$\ $}
+
+
+\title{\textsc{Liceo Statale ``Niccolò Machiavelli'' di Roma}\\
+			5$^\circ$ anno -- Verifica di Fisica n. 2 
+			-- CLIL Electric Currents}
+\author{}
+\date{} 
+
+\pagestyle{fancy}
+
+\newcommand{\cotan}{\mathrm{cotan\,}}%\,}
+%\newcommand{\ee}{\mathrm{e}}
+
+
+\newcommand{\Log}{\mathrm{Log}\,}
+
+
+
+\begin{document}
+\thispagestyle{empty}
+\raggedright
+
+
+%\vspace{-2cm} no effect
+\maketitle
+\vspace{-1cm}
+
+\noindent
+\begin{tabular}{l}
+\sc \large Versione $\heartsuit$@ver@ \\
+\\
+\sc \large Data \shortmybox $\ $ $\ $ \sc \large Classe \shortmybox $\ $ \\
+\\
+\sc \large Alunno \longmybox \\
+\end{tabular}
+
+
+\vspace{1cm}
+
+
+\sc
+\large
+
+\thispagestyle{fancy}
+%$\textwidth$
+%\circled{10}
+
+
+Il punteggio 
+per ogni risposta corretta è di 4 punti,
+%riportato all'inizio del quesito.
+%Inoltre saranno assegnati %4 punti per ogni risposta corretta, 
+per ogni risposta omessa 1 punto, per ogni risposta sbagliata 0 punti. % e 
+La durata della verifica è di un'ora.
+{\bf \sc Si suggerisce di ricopiare le risposte nella tabella
+a seguire o in caso di difficoltà nella copia se ne segnali l'assenza.
+}
+
+\tikz[remember picture,overlay] \node[inner sep=0pt, shift={(-4 cm,-1cm)}] at (current page.north east){\includegraphics[width=5.6cm]{buon-compito.pdf}};
+
+\vspace{.5cm}
+\noindent
+\begin{center}
+%\vspace{-1cm}
+\begin{tabular}{ | c | c | c | c | c | c | c | c | c | c | }
+\hline
+\multicolumn{10}{|l|}{ {\sc Tabella delle risposte}} \\
+\hline
+1 &  2 &  3 &  4 &  5 & 
+6 &  7 &  8 &  9 &  10 \\
+\hline
+$\quad\ \quad $ & $\quad\ \quad $ & $\quad\ \quad $ & $\quad\ \quad $ & $\quad\ \quad $ & 
+$\quad\ \quad $ & $\quad\ \quad $ & $\quad\ \quad $ & $\quad\ \quad $ & $\quad\ \quad $ 
+\\
+\hline
+11 &  12  & 13 &  14 &  15 & 16 &  17 &  18 &  19 &  20  
+\\
+\hline
+$\quad $ & $\quad $ & $\quad $ & $\quad $ & $\quad $ & 
+$\quad $ & $\quad $ & $\quad $ & $\quad $ & $\quad $ 
+\\
+\hline
+21 &  22 &  23 &  24 &  25 & 
+26 &  27 &  28 &  29 &  30 \\
+\hline
+$\quad\ \quad $ & $\quad\ \quad $ & $\quad\ \quad $ & $\quad\ \quad $ & $\quad\ \quad $ & 
+$\quad\ \quad $ & $\quad\ \quad $ & $\quad\ \quad $ & $\quad\ \quad $ & $\quad\ \quad $ 
+\\
+\hline
+31 &  32  & 33 &  34 &  35 & 36 &  37 &  38 &  39 &  40  
+\\
+\hline
+$\quad $ & $\quad $ & $\quad $ & $\quad $ & $\quad $ & 
+$\quad $ & $\quad $ & $\quad $ & $\quad $ & $\quad $ 
+\\
+\hline
+\end{tabular}
+\end{center}
+\vspace{.5cm}
+
+
+%\begin{multicols}{2}
+
+\begin{enumerate}[label=\protect\circled{\arabic*}]
+
+
+
+@QUESTIONS@
+
+
+\end{enumerate}
+
+
+\vspace{.5cm}
+%\begin{multicols}{4}
+	\noindent
+
+@FIGURES@
+
+%
+%\end{multicols}
+
+
+\vspace{.5cm}
+
+@TABLES@
+
+
+
+
+\begin{comment}
+
+\vfill
+
+\begin{tabular}{p{9cm} r }
+{\bf 23 maggio 2017 -- Classi prime -- Versione $\heartsuit$@ver@} &  
+{Alunno } \longmybox  \\
+\end{tabular}
+
+\end{comment}
+
+
+
+\end{document}
+%
+

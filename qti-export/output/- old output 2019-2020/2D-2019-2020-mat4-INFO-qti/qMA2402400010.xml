@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<assessmentItem xmlns="http://www.imsglobal.org/xsd/imsqti_v2p2" xmlns:m="http://www.w3.org/1998/Math/MathML" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.imsglobal.org/xsd/imsqti_v2p2 http://www.imsglobal.org/xsd/qti/qtiv2p2/imsqti_v2p2.xsd" identifier="MA2402400010" title="domanda" label="MA2402400010" xml:lang="it-IT" adaptive="false" timeDependent="false" toolName="TAO" toolVersion="3.3.0-RC02">
+  <responseDeclaration identifier="RESPONSE" cardinality="single" baseType="identifier">
+    <correctResponse>
+      <value><![CDATA[A]]></value>
+    </correctResponse>
+  </responseDeclaration>
+  <outcomeDeclaration identifier="SCORE" cardinality="single" baseType="float" normalMaximum="1"/>
+  <outcomeDeclaration identifier="MAXSCORE" cardinality="single" baseType="float">
+    <defaultValue>
+      <value>1</value>
+    </defaultValue>
+  </outcomeDeclaration>
+
+  <itemBody>
+    <div class="grid-row">
+      <div class="col-12">
+        <choiceInteraction responseIdentifier="RESPONSE" shuffle="true" maxChoices="1" minChoices="0" orientation="vertical" class="eliminability-deselected">
+
+		<prompt>Durante il periodo estivo Anna deve leggere un libro di $305$ pagine come compito per le vacanze. Nel mese di giugno si riposa e a partire dal primo giorno di luglio legge $5$ pagine al giorno per tutto il mese. In agosto va in vacanza con i genitori e dimentica il libro a casa; al suo ritorno, negli ultimi $10$ giorni di vacanza, per terminare il libro legge $15$ pagine al giorno. Si dica quale, fra i grafici in figura , può rappresentare l’andamento del numero di pagine lette da Anna nel periodo estivo. </prompt>
+		<simpleChoice identifier="A" fixed="false" showHide="show">Il grafico $1$. </simpleChoice>
+		<simpleChoice identifier="B" fixed="false" showHide="show">Il grafico $2$. </simpleChoice>
+		<simpleChoice identifier="C" fixed="false" showHide="show">Il grafico $4$. </simpleChoice>
+		<simpleChoice identifier="D" fixed="false" showHide="show">Il grafico $3$. </simpleChoice>
+
+        </choiceInteraction>
+      </div>
+    </div>
+  </itemBody>
+  <responseProcessing template="http://www.imsglobal.org/question/qti_v2p2/rptemplates/match_correct"/>
+</assessmentItem>

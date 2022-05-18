@@ -1,16 +1,9 @@
-#!/usr/bin/python
 
-#------------------------------------------------------------------------------#
-#                                                                              #
-#                                                                              #
-#                                EVALUATEST                                    #
-#                         (Mac OS X and Linux version)                         #
-#                               Antonio Ricco                                  #
-#                                                                              #
-#------------------------------------------------------------------------------#
-
-#    MAKETEST
-#    Copyright (C) 2019  Antonio Ricco
+#
+#    EVALUATEST
+#    Copyright (C) 2019-2022 Eval Scuola
+#    www.evalscuola.it
+#    info@evalscuola.it
 #
 #    This program is free software: you can redistribute it and/or modify
 #    it under the terms of the GNU General Public License as published by

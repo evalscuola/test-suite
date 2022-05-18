@@ -1,28 +1,36 @@
-# evaluatest
+# Test Suite
 
-It is used to compute the scores and the cheating index of test results.
+**Test Suite** is a set of Python 3 scripts to manage tests.
+
+## maketest qti-export
+
+**maketest** creates a PDF file with
+a number of versions of the test from a database of items
+with the questions and answers rearranged in a different
+order. It uses a LaTeX distribution.
+
+**qti-export** creates the QTI file of the items
+from the maketest format, to be used for example
+in Tao Testing.
 
 
-# maketest
+## evaluatest smrt checktest
 
-From a database of questions the program creates
-a number of versions of the test in pdf with the
-questions and answers rearranged in a different
-order.
+**evaluatest** is used to compute the scores
+and the cheating index of test results.
 
-It is written in Python 2.7 on a Mac, uses the
-library pdfrw and a LaTeX distribution.
-
-
-# smrt
-
-Smrt converts students' scores to curved grades,
+**smrt** converts students' scores to curved grades,
 i.e. whatever the initial distribution of the scores,
 the distribution of the grades is a gaussian bell
 curve.
 
-# checktest
+**checktest** performs some simple item analysis in
+classical test theory. In particular check.py computes
+difficulty index and discrimination index for the items
+of the test and produces a table with the percentages,
+while frequency-graphs.py creates two graphs for the two indices.
 
-Checktest performs some simple item analysis in classical test theory. In particular check.py computes difficulty index and discrimination index for the items of the test and produces a table with the percentages, while frequency-graphs.py creates two graphs for the two indices.
 
-It is written in Python 3 on a Mac computer and there is really a lot of space for improvement.
+## additems
+
+**additems** creates the files of the maketest format.
